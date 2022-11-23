@@ -1,4 +1,4 @@
---type exe
+--type app-image
 --name ${app.name}
 --vendor ${windows.vendor}
 --icon "${project.basedir}/app-icon.ico"
