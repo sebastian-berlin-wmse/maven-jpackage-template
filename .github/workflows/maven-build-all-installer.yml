@@ -109,7 +109,4 @@ jobs:
           title: ${{ matrix.os }} Development Build
           files: | 
             ${{ env.DMG_PATH }}
-            ./target/*.msi
-            ./target/*.exe
-            ./target/*.dmg
-            ./target/*.deb
+            ./target/*.*
